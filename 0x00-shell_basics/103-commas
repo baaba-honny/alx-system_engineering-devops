@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1A | LC_COLLATE=C sort -df | sed ':a;N;$!ba;s/\n/, /g;s/\([^\/]\)$/&, /;s/\/$/\//'
+ls -map | sort -d
