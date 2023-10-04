@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(head -n 1 filename | tail -n +3 filename)"
+echo "$(head -n 1 filename.txt; tail -n +3 filename.txt)"
